@@ -1,6 +1,6 @@
 // page-footer
 .page-footer {
-  outline: 1px solid red;
+  //   outline: 1px solid red;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 27px;
@@ -49,6 +49,16 @@
   }
 }
 
+.ellipsis {
+  width: 30px;
+  height: 30px;
+  margin: 0px;
+  margin-right: 5px;
+  text-align: center;
+
+  color: $white-text-color;
+}
+
 .link:not(:last-child) {
   margin: 0px;
   margin-right: 5px;
@@ -57,7 +67,7 @@
 .link:hover,
 .link:focus {
   color: $more-btn-hover-color;
-  border: 1px solid #dc56c5;
+  border: 1px solid $more-btn-hover-color;
 
   box-sizing: border-box;
   border-radius: 10px 0px;
